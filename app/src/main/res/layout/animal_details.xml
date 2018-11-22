@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AnimalDetails">
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Back_To_Main"
+        android:onClick="CLICK2"/>
+
+    <TextView
+        android:id="@+id/tvSharkFacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Shark_Facts"
+        android:textSize="25dp"/>
+
+</LinearLayout>
